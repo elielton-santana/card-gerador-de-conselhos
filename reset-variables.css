@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-title-card:  hsl(150, 100%, 66%);
+    --cor-paragrafo: hsl(193, 38%, 86%);
+    --cor-card: hsl(217, 19%, 24%);
+    --cor-body: hsl(218, 23%, 16%);
+}

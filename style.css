@@ -1,0 +1,108 @@
+html body {
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    background-color: var(--cor-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-card);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 450px;
+    /* width: 400px;
+    height: 250px; */
+    /* position: relative; */
+    /* justify-content: space-between; */
+    /* padding: 40px 50px 60px 50px; */
+    /* text-align: center; */
+}
+
+.text>h4 {
+    color: var(--cor-title-card);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.text>p {
+    font-size: 23px;
+    padding: 23px;
+    text-align: center;
+    color: var(--cor-paragrafo);
+}
+
+.icon-line img {
+    width: 100%;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    transform: translateY(85%);
+}
+
+.square:hover {
+    box-shadow: 0px 0px 20px 10px #00ff00;
+}
+
+/* .square {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: hsl(150, 100%, 66%);
+    width: 50px;
+    height: 50px;
+    bottom: -25px;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+} */
+
+/* .icon-square {
+    background-image: url(src/images/icon-dice.svg);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+} */
+
+/* 
+.bac {
+    margin-top: 20px;
+    height: 300px;
+    width: 200px;
+    background-color: slateblue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(0, 226, 57);
+    width: 60px;
+    height: 60px;
+    bottom: -30px;
+    align-items: center;
+    border-radius: 50%;
+} */
+
+
+
